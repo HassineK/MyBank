@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Bank</string>
+    <string name="my_accounts">Mes Comptes</string>
+    <string name="simulation">Simulation</string>
+    <string name="others">À vous de jouer</string>
+    <string name="show_more_content_description">show more</string>
+    <string name="show_less_content_description">show less</string>
+    <string name="show_forward_content_description">show forward</string>
+    <string name="agricultural_credit_title">Crédit Agricole</string>
+    <string name="other_banks_title">Autres Banques</string>
+    <string name="common_system_error">Une erreur est survenue.\nMerci de racharger la page.</string>
+    <string name="my_accounts_label">Mes Comptes</string>
+    <string name="simulation_label">Simulation</string>
+    <string name="others_label">À vous de jouer</string>
+</resources>
