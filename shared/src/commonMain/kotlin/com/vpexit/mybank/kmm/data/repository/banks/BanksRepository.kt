@@ -1,6 +1,6 @@
-package com.vpexit.mybank.kmm.data.repository
+package com.vpexit.mybank.kmm.data.repository.banks
 
-import com.vpexit.mybank.kmm.data.remote.BanksApi
+import com.vpexit.mybank.kmm.data.remote.banks.BanksApi
 
 internal class BanksRepository(
     private val banksApi: BanksApi

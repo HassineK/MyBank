@@ -1,6 +1,6 @@
 package com.vpexit.mybank.kmm.domain
 
-import com.vpexit.mybank.kmm.domain.usecases.GetAllBanksUseCase
+import com.vpexit.mybank.kmm.domain.usecases.banks.GetAllBanksUseCase
 import org.koin.core.module.dsl.factoryOf
 import org.koin.dsl.module
 

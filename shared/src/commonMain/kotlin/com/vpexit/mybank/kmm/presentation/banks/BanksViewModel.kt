@@ -1,10 +1,11 @@
 package com.vpexit.mybank.kmm.presentation.banks
 
 import com.vpexit.mybank.kmm.domain.usecases.DataState
-import com.vpexit.mybank.kmm.domain.usecases.GetAllBanksUseCase
+import com.vpexit.mybank.kmm.domain.usecases.banks.GetAllBanksUseCase
 import com.vpexit.mybank.kmm.mvi.KmmStateFlow
 import com.vpexit.mybank.kmm.mvi.KmmViewModel
 import com.vpexit.mybank.kmm.mvi.asKmmStateFlow
+import com.vpexit.mybank.kmm.presentation.BaseViewState
 import io.github.aakira.napier.Napier
 import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -48,7 +49,7 @@ class BanksViewModel internal constructor(
     }
 
     private fun handleException(e: Throwable) {
-        Napier.e("BanksViewModel handleError", e)
+        Napier.e("BanksViewModel handleError : ", e)
         _uiState.update { BaseViewState.Error(e) }
     }
 }

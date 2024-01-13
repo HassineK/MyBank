@@ -1,4 +1,4 @@
-package com.vpexit.mybank.kmm.presentation.banks
+package com.vpexit.mybank.kmm.presentation
 
 sealed interface BaseViewState<out T> {
     data class IsLoading<Boolean>(val value: Boolean) : BaseViewState<Boolean>

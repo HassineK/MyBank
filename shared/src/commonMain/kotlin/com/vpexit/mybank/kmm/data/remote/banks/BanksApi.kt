@@ -1,4 +1,4 @@
-package com.vpexit.mybank.kmm.data.remote
+package com.vpexit.mybank.kmm.data.remote.banks
 
 import com.vpexit.mybank.kmm.data.model.banks.Bank
 

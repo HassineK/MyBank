@@ -32,7 +32,7 @@ import com.vpexit.mybank.kmm.android.utils.cast
 import com.vpexit.mybank.kmm.android.utils.getDemoSdk
 import com.vpexit.mybank.kmm.data.model.banks.Account
 import com.vpexit.mybank.kmm.data.model.banks.Bank
-import com.vpexit.mybank.kmm.presentation.banks.BaseViewState
+import com.vpexit.mybank.kmm.presentation.BaseViewState
 import com.vpexit.mybank.kmm.presentation.banks.BanksUiState
 
 @Composable
